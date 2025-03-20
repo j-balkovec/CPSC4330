@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Exercise7:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Exercise7_jar</output-path>
+    <root id="archive" name="Exercise7.jar">
+      <element id="module-output" name="Exercise7" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-kms-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-nfs-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-common-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-common-3.2.1-tests.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-examples-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-hs-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-app-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-core-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-common-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-shuffle-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-uploader-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-jobclient-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-hs-plugins-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-nativetask-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ex7/mapreducelib/hadoop-mapreduce-client-jobclient-3.2.1-tests.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

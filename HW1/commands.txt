@@ -1,0 +1,15 @@
+To run the MapReduce Function
+
+>>> hadoop jar HW1.jar /hw1/<input_file> /<output_dir>
+
+To log the output
+
+>>> hadoop jar HW1.jar /hw1/<input_file> /<output_dir> > log_file.txt 2>&1
+
+To check the log file
+
+>>> cat <log_file>
+
+To append instaed of overwrite
+
+>>> hadoop jar HW1.jar /hw1/<input_file> /<output_dir> >> log_file.txt 2>&1

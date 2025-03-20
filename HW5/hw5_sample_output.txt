@@ -1,0 +1,31 @@
+Q3:
+408-555-4914 
+
+Q4:
+5278505
+
+Q5:
+20
+
+Q6:
+16852
+
+Q7:
+To help you check your answer, there should be 9414 customers in total.
+But your script needs to list those customers.
+
+Q8:
+1274673, 1.10
+
+Q9:
+{"ngram":["cost","ten","times"],"estfrequency":71.0}
+{"ngram":["does","the","red"],"estfrequency":71.0}
+{"ngram":["ten","times","more"],"estfrequency":71.0}
+{"ngram":["than","the","others"],"estfrequency":71.0}
+{"ngram":["the","red","one"],"estfrequency":71.0}
+
+
+Q10:
+Why does the red one cost ten times more than the others?
+
+

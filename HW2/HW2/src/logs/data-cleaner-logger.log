@@ -1,0 +1,190 @@
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner LoadStopWords
+INFO: Loaded 127 stop words
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Input directory: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/ebooks
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Output directory: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Created output directory: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Input directory: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/ebooks
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Processing file: 844-0.txt
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/844-0.txt
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 844-0.txt (4269 lines processed)
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Processing file: 1342-0.txt
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/1342-0.txt
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 1342-0.txt (14579 lines processed)
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Processing file: pg58585.txt
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/pg58585.txt
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: pg58585.txt (3469 lines processed)
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner main
+INFO: Processing file: 47629-0.txt
+Feb 04, 2025 3:01:19 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/47629-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 47629-0.txt (15564 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 2542-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/2542-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 2542-0.txt (5543 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 1260-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/1260-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 1260-0.txt (21386 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 219-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/219-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 219-0.txt (3732 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 345-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/345-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 345-0.txt (15870 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: pg25344.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/pg25344.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: pg25344.txt (9096 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: pg20228.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/pg20228.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: pg20228.txt (24056 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 2600-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/2600-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 2600-0.txt (66032 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 1080-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/1080-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 1080-0.txt (725 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 76-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/76-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 76-0.txt (12399 lines processed)
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner main
+INFO: Processing file: 2701-0.txt
+Feb 04, 2025 3:01:20 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/2701-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 2701-0.txt (22316 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 11-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/11-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 11-0.txt (3761 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 408-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/408-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 408-0.txt (7097 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 135-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/135-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 135-0.txt (73589 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 1661-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/1661-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 1661-0.txt (12304 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 43-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/43-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 43-0.txt (2935 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 5200-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/5200-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 5200-0.txt (2266 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 98-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/98-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 98-0.txt (16285 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 4300-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/4300-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 4300-0.txt (33216 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 2554-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/2554-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 2554-0.txt (22443 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 2591-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/2591-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 2591-0.txt (9612 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: pg64317.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/pg64317.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: pg64317.txt (6772 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 1952-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/1952-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 1952-0.txt (1225 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: 1400-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/1400-0.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 1400-0.txt (20774 lines processed)
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner main
+INFO: Processing file: pg174.txt
+Feb 04, 2025 3:01:21 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/pg174.txt
+Feb 04, 2025 3:01:22 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: pg174.txt (8902 lines processed)
+Feb 04, 2025 3:01:22 PM scripts.DataCleaner main
+INFO: Processing file: 1232-0.txt
+Feb 04, 2025 3:01:22 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/1232-0.txt
+Feb 04, 2025 3:01:22 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 1232-0.txt (5188 lines processed)
+Feb 04, 2025 3:01:22 PM scripts.DataCleaner main
+INFO: Processing file: 84-0.txt
+Feb 04, 2025 3:01:22 PM scripts.DataCleaner cleanFile
+INFO: Created output file: /Users/jbalkovec/Desktop/CPSC4330/HW2/HW2/cleaned_ebooks/84-0.txt
+Feb 04, 2025 3:01:22 PM scripts.DataCleaner cleanFile
+INFO: Finished cleaning file: 84-0.txt (7743 lines processed)

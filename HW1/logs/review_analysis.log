@@ -1,0 +1,30 @@
+Jan 18, 2025 6:16:56 AM ReviewAnalysis main
+INFO: Input path: /hw1/Gift_Cards.csv
+Jan 18, 2025 6:16:56 AM ReviewAnalysis main
+INFO: Output path: /giftcards_analysis
+Jan 18, 2025 6:16:57 AM ReviewAnalysis main
+WARNING: Output path exists. Deleting: /giftcards_analysis
+Jan 18, 2025 6:16:57 AM ReviewAnalysis main
+INFO: Starting job execution...
+Jan 18, 2025 6:17:15 AM ReviewAnalysis main
+INFO: Job completed successfully.
+Jan 18, 2025 6:21:08 AM ReviewAnalysis main
+INFO: Input path: /hw1/Gift_Cards.csv
+Jan 18, 2025 6:21:08 AM ReviewAnalysis main
+INFO: Output path: /giftcards_analysis
+Jan 18, 2025 6:21:09 AM ReviewAnalysis main
+WARNING: Output path exists. Deleting: /giftcards_analysis
+Jan 18, 2025 6:21:09 AM ReviewAnalysis main
+INFO: Starting job execution...
+Jan 18, 2025 6:21:28 AM ReviewAnalysis main
+INFO: Job completed successfully.
+Jan 18, 2025 6:28:40 AM ReviewAnalysis main
+INFO: Input path: /hw1/Gift_Cards.csv
+Jan 18, 2025 6:28:40 AM ReviewAnalysis main
+INFO: Output path: /giftcards_analysis
+Jan 18, 2025 6:28:41 AM ReviewAnalysis main
+WARNING: Output path exists. Deleting: /giftcards_analysis
+Jan 18, 2025 6:28:41 AM ReviewAnalysis main
+INFO: Starting job execution...
+Jan 18, 2025 6:29:01 AM ReviewAnalysis main
+INFO: Job completed successfully.

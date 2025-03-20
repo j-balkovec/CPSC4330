@@ -1,0 +1,14 @@
+yarn application -list
+
+yarn logs -applicationId <application_id>
+
+http://<your-namenode>:8088/cluster
+
+BACKUP:
+
+spark-submit --master yarn \
+    --deploy-mode cluster \
+    --num-executors 4 \
+    --executor-memory 2G \
+    --executor-cores 2 \
+    /absolute/path/to/weblog_analysis.py

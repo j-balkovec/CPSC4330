@@ -1,0 +1,21 @@
+#!/usr/local/bin/python3.8
+
+# reducer script for HS that aggregates log entries by minute and severity level
+
+import sys
+from collections import defaultdict
+
+default = lambda: {"total_entries": 0, "INFO": 0, "WARN": 0, "ERROR": 0, "FATAL": 0}
+
+log_counts = defaultdict(default)
+
+for line in sys.stdin:
+    minute, severity = line.strip().split("\t")
+    minute = int(minute)
+
+    log_counts[minute]["total_entries"] += 1
+    log_counts[minute][severity] += 1            
+
+for minute in sorted(log_counts.keys()):
+    count = log_counts[minute]
+    print(str(minute + 1) + "\t" + str(count["total_entries"]) + "\t" + str(count["INFO"]) + "\t" + str(count["WARN"]) + "\t" + str(count["ERROR"]) + "\t" + str(count["FATAL"]))

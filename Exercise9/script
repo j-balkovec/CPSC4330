@@ -1,0 +1,6 @@
+spark-submit --master yarn \
+    --deploy-mode cluster \
+    --num-executors 4 \
+    --executor-memory 2G \
+    --executor-cores 2 \
+    main.py

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="HW1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/review_data.zip!/" />
+      <root url="jar://$PROJECT_DIR$/review_data_large.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

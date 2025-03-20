@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Exercise3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ex3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/mapreducelib.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

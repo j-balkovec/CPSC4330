@@ -1,0 +1,23 @@
+#!/bin/bash
+
+INPUT_FILE="Hadoop_2k.log"
+HDFS_INPUT_DIR="/input"
+HDFS_OUTPUT_DIR="/output"
+
+export INPUT_FILE HDFS_INPUT_DIR HDFS_OUTPUT_DIR
+
+# remove old directories; if they exist >>> send to /dev/null
+hadoop fs -rm -r $HDFS_INPUT_DIR $HDFS_OUTPUT_DIR 2>/dev/null
+
+# create input directory and copy file to HDFS
+hadoop fs -mkdir -p $HDFS_INPUT_DIR
+hadoop fs -put $INPUT_FILE $HDFS_INPUT_DIR
+
+# run HS
+./run-hadoop-streaming log-processing $HDFS_INPUT_DIR $HDFS_OUTPUT_DIR
+
+# cat output
+hadoop fs -cat ${HDFS_OUTPUT_DIR}/part-r-00000 | sort -n
+
+# clean up output dir
+# hadoop fs -rm -r "$HDFS_OUTPUT_DIR"

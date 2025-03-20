@@ -1,0 +1,219 @@
+25/02/27 01:23:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/27 01:23:52 INFO DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at ip-172-31-66-196.ec2.internal/172.31.66.196:8032
+25/02/27 01:23:52 INFO Configuration: resource-types.xml not found
+25/02/27 01:23:52 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+25/02/27 01:23:52 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (12288 MB per container)
+25/02/27 01:23:52 INFO Client: Will allocate AM container, with 2432 MB memory including 384 MB overhead
+25/02/27 01:23:52 INFO Client: Setting up container launch context for our AM
+25/02/27 01:23:52 INFO Client: Setting up the launch environment for our AM container
+25/02/27 01:23:52 INFO Client: Preparing resources for our AM container
+25/02/27 01:23:52 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+25/02/27 01:23:54 INFO Client: Uploading resource file:/mnt/tmp/spark-b14b88c0-d79f-4d6f-87a2-1b5c5e2f7687/__spark_libs__7163460377479579850.zip -> hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002/__spark_libs__7163460377479579850.zip
+25/02/27 01:23:55 INFO Client: Uploading resource file:/etc/spark/conf.dist/hive-site.xml -> hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002/hive-site.xml
+25/02/27 01:23:55 INFO Client: Uploading resource file:/etc/hudi/conf.dist/hudi-defaults.conf -> hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002/hudi-defaults.conf
+25/02/27 01:23:56 INFO ClientConfigurationFactory: Set initial getObject socket timeout to 2000 ms.
+25/02/27 01:23:56 INFO Client: Uploading resource s3://hw3-spark/code/hw3_1.py -> hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002/hw3_1.py
+25/02/27 01:23:56 INFO S3NativeFileSystem: Opening 's3://hw3-spark/code/hw3_1.py' for reading
+25/02/27 01:23:57 INFO Client: Uploading resource file:/usr/lib/spark/python/lib/pyspark.zip -> hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002/pyspark.zip
+25/02/27 01:23:57 INFO Client: Uploading resource file:/usr/lib/spark/python/lib/py4j-0.10.9.7-src.zip -> hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002/py4j-0.10.9.7-src.zip
+25/02/27 01:23:57 INFO Client: Uploading resource file:/mnt/tmp/spark-b14b88c0-d79f-4d6f-87a2-1b5c5e2f7687/__spark_conf__16648825481062324054.zip -> hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002/__spark_conf__.zip
+25/02/27 01:23:58 INFO SecurityManager: Changing view acls to: hadoop
+25/02/27 01:23:58 INFO SecurityManager: Changing modify acls to: hadoop
+25/02/27 01:23:58 INFO SecurityManager: Changing view acls groups to: 
+25/02/27 01:23:58 INFO SecurityManager: Changing modify acls groups to: 
+25/02/27 01:23:58 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: hadoop; groups with view permissions: EMPTY; users with modify permissions: hadoop; groups with modify permissions: EMPTY
+25/02/27 01:23:58 INFO Client: Submitting application application_1740618045420_0002 to ResourceManager
+25/02/27 01:23:58 INFO YarnClientImpl: Submitted application application_1740618045420_0002
+25/02/27 01:23:59 INFO Client: Application report for application_1740618045420_0002 (state: ACCEPTED)
+25/02/27 01:23:59 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: root.default
+	 start time: 1740619438130
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-66-196.ec2.internal:20888/proxy/application_1740618045420_0002/
+	 user: hadoop
+25/02/27 01:24:09 INFO Client: Application report for application_1740618045420_0002 (state: FAILED)
+25/02/27 01:24:09 INFO Client: 
+	 client token: N/A
+	 diagnostics: Application application_1740618045420_0002 failed 2 times due to AM Container for appattempt_1740618045420_0002_000002 exited with  exitCode: 13
+Failing this attempt.Diagnostics: [2025-02-27 01:24:08.987]Exception from container-launch.
+Container id: container_1740618045420_0002_02_000001
+Exit code: 13
+
+[2025-02-27 01:24:08.990]Container exited with a non-zero exit code 13. Error file: prelaunch.err.
+Last 4096 bytes of prelaunch.err :
+Last 4096 bytes of stderr :
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for TERM
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for HUP
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for INT
+25/02/27 01:24:07 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1740618045420_0002_000002
+25/02/27 01:24:07 INFO ApplicationMaster: Starting the user application in a separate Thread
+25/02/27 01:24:07 INFO ApplicationMaster: Waiting for spark context initialization...
+25/02/27 01:24:08 ERROR ApplicationMaster: User application exited with status 1
+25/02/27 01:24:08 INFO ApplicationMaster: Final app status: FAILED, exitCode: 13, (reason: User application exited with status 1)
+25/02/27 01:24:08 ERROR ApplicationMaster: Uncaught exception: 
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56) ~[spark-common-utils_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.runDriver(ApplicationMaster.scala:509) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.run(ApplicationMaster.scala:268) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:937) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:936) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]
+	at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1953) [hadoop-client-api-3.4.0-amzn-3.jar:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$.main(ApplicationMaster.scala:936) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.main(ApplicationMaster.scala) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+Caused by: org.apache.spark.SparkUserAppException: User application exited with 1
+	at org.apache.spark.deploy.PythonRunner$.main(PythonRunner.scala:112) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.PythonRunner.main(PythonRunner.scala) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$2.run(ApplicationMaster.scala:741) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+25/02/27 01:24:08 INFO ApplicationMaster: Deleting staging directory hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002
+25/02/27 01:24:08 INFO ShutdownHookManager: Shutdown hook called
+
+
+[2025-02-27 01:24:08.990]Container exited with a non-zero exit code 13. Error file: prelaunch.err.
+Last 4096 bytes of prelaunch.err :
+Last 4096 bytes of stderr :
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for TERM
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for HUP
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for INT
+25/02/27 01:24:07 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1740618045420_0002_000002
+25/02/27 01:24:07 INFO ApplicationMaster: Starting the user application in a separate Thread
+25/02/27 01:24:07 INFO ApplicationMaster: Waiting for spark context initialization...
+25/02/27 01:24:08 ERROR ApplicationMaster: User application exited with status 1
+25/02/27 01:24:08 INFO ApplicationMaster: Final app status: FAILED, exitCode: 13, (reason: User application exited with status 1)
+25/02/27 01:24:08 ERROR ApplicationMaster: Uncaught exception: 
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56) ~[spark-common-utils_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.runDriver(ApplicationMaster.scala:509) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.run(ApplicationMaster.scala:268) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:937) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:936) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]
+	at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1953) [hadoop-client-api-3.4.0-amzn-3.jar:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$.main(ApplicationMaster.scala:936) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.main(ApplicationMaster.scala) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+Caused by: org.apache.spark.SparkUserAppException: User application exited with 1
+	at org.apache.spark.deploy.PythonRunner$.main(PythonRunner.scala:112) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.PythonRunner.main(PythonRunner.scala) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$2.run(ApplicationMaster.scala:741) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+25/02/27 01:24:08 INFO ApplicationMaster: Deleting staging directory hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002
+25/02/27 01:24:08 INFO ShutdownHookManager: Shutdown hook called
+
+
+For more detailed output, check the application tracking page: http://ip-172-31-66-196.ec2.internal:8088/cluster/app/application_1740618045420_0002 Then click on links to logs of each attempt.
+. Failing the application.
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: root.default
+	 start time: 1740619438130
+	 final status: FAILED
+	 tracking URL: http://ip-172-31-66-196.ec2.internal:8088/cluster/app/application_1740618045420_0002
+	 user: hadoop
+25/02/27 01:24:09 ERROR Client: Application diagnostics message: Application application_1740618045420_0002 failed 2 times due to AM Container for appattempt_1740618045420_0002_000002 exited with  exitCode: 13
+Failing this attempt.Diagnostics: [2025-02-27 01:24:08.987]Exception from container-launch.
+Container id: container_1740618045420_0002_02_000001
+Exit code: 13
+
+[2025-02-27 01:24:08.990]Container exited with a non-zero exit code 13. Error file: prelaunch.err.
+Last 4096 bytes of prelaunch.err :
+Last 4096 bytes of stderr :
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for TERM
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for HUP
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for INT
+25/02/27 01:24:07 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1740618045420_0002_000002
+25/02/27 01:24:07 INFO ApplicationMaster: Starting the user application in a separate Thread
+25/02/27 01:24:07 INFO ApplicationMaster: Waiting for spark context initialization...
+25/02/27 01:24:08 ERROR ApplicationMaster: User application exited with status 1
+25/02/27 01:24:08 INFO ApplicationMaster: Final app status: FAILED, exitCode: 13, (reason: User application exited with status 1)
+25/02/27 01:24:08 ERROR ApplicationMaster: Uncaught exception: 
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56) ~[spark-common-utils_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.runDriver(ApplicationMaster.scala:509) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.run(ApplicationMaster.scala:268) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:937) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:936) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]
+	at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1953) [hadoop-client-api-3.4.0-amzn-3.jar:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$.main(ApplicationMaster.scala:936) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.main(ApplicationMaster.scala) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+Caused by: org.apache.spark.SparkUserAppException: User application exited with 1
+	at org.apache.spark.deploy.PythonRunner$.main(PythonRunner.scala:112) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.PythonRunner.main(PythonRunner.scala) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$2.run(ApplicationMaster.scala:741) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+25/02/27 01:24:08 INFO ApplicationMaster: Deleting staging directory hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002
+25/02/27 01:24:08 INFO ShutdownHookManager: Shutdown hook called
+
+
+[2025-02-27 01:24:08.990]Container exited with a non-zero exit code 13. Error file: prelaunch.err.
+Last 4096 bytes of prelaunch.err :
+Last 4096 bytes of stderr :
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for TERM
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for HUP
+25/02/27 01:24:06 INFO SignalUtils: Registering signal handler for INT
+25/02/27 01:24:07 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1740618045420_0002_000002
+25/02/27 01:24:07 INFO ApplicationMaster: Starting the user application in a separate Thread
+25/02/27 01:24:07 INFO ApplicationMaster: Waiting for spark context initialization...
+25/02/27 01:24:08 ERROR ApplicationMaster: User application exited with status 1
+25/02/27 01:24:08 INFO ApplicationMaster: Final app status: FAILED, exitCode: 13, (reason: User application exited with status 1)
+25/02/27 01:24:08 ERROR ApplicationMaster: Uncaught exception: 
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56) ~[spark-common-utils_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.runDriver(ApplicationMaster.scala:509) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.run(ApplicationMaster.scala:268) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:937) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:936) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]
+	at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1953) [hadoop-client-api-3.4.0-amzn-3.jar:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$.main(ApplicationMaster.scala:936) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.yarn.ApplicationMaster.main(ApplicationMaster.scala) [spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+Caused by: org.apache.spark.SparkUserAppException: User application exited with 1
+	at org.apache.spark.deploy.PythonRunner$.main(PythonRunner.scala:112) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at org.apache.spark.deploy.PythonRunner.main(PythonRunner.scala) ~[spark-core_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$2.run(ApplicationMaster.scala:741) ~[spark-yarn_2.12-3.5.3-amzn-1.jar:3.5.3-amzn-1]
+25/02/27 01:24:08 INFO ApplicationMaster: Deleting staging directory hdfs://ip-172-31-66-196.ec2.internal:8020/user/hadoop/.sparkStaging/application_1740618045420_0002
+25/02/27 01:24:08 INFO ShutdownHookManager: Shutdown hook called
+
+
+For more detailed output, check the application tracking page: http://ip-172-31-66-196.ec2.internal:8088/cluster/app/application_1740618045420_0002 Then click on links to logs of each attempt.
+. Failing the application.
+Exception in thread "main" org.apache.spark.SparkException: Application application_1740618045420_0002 finished with failed status
+	at org.apache.spark.deploy.yarn.Client.run(Client.scala:1321)
+	at org.apache.spark.deploy.yarn.YarnClusterApplication.start(Client.scala:1754)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:1107)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:218)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:92)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1199)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1208)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+25/02/27 01:24:09 INFO ShutdownHookManager: Shutdown hook called
+25/02/27 01:24:09 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-b14b88c0-d79f-4d6f-87a2-1b5c5e2f7687
+25/02/27 01:24:09 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-4c771831-9da0-49c4-9704-60a852c78c9e
+Command exiting with ret '1'

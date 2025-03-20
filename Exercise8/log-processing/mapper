@@ -1,0 +1,16 @@
+#!/usr/local/bin/python3.8
+
+# mapper script for HS that maps the log entries to minute and severity level
+
+import sys
+import re  # regex
+
+# log entry pattern
+regex = r"(\d{2}):(\d{2}):\d{2}.*(INFO|WARN|ERROR|FATAL)"
+
+for line in sys.stdin:
+    match = re.search(regex, line)
+    if match:
+        minute = int(match.group(2))
+        severity = match.group(3)
+        print(str(minute) + "\t" + severity)
